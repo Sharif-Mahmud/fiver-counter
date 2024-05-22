@@ -1,0 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap');
+
+
+:root{
+    --shadow-1: 0 .125rem .25rem rgba(0,0,0, .075);
+    --shadow-2: 0 .5rem 1rem rgba(0,0,0, .15);
+    --shadow-3: 0 1rem 3rem rgba(0,0,0, .175);
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+html{
+    font-family: poppins;
+}
+
+body{
+    background-color: #e9e9e9;
+}
+
+a,
+a:hover{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.fiver_wrapper{
+    width: 600px;
+    margin: 200px auto 0px;
+}
+
+.fiver_wrapper .counter{
+    text-align: center;
+    font-size: 70px;
+}
+
+.fiver_wrapper .counter span{
+    font-size: 70px;
+    font-weight: 900;
+}
